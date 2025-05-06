@@ -70,13 +70,13 @@ export function Services() {
           Our Services
         </h2>
 
-        <p className="max-w-lg text-lg text-center mx-auto text-neutral-700">
+        <p className="max-w-lg text-lg text-justify mx-auto text-neutral-700">
           Our team of skilled tutors works with each student to determine an
           individualized evaluation of each student’s strengths and weaknesses,
           and then tailors a unique program to address specific needs and
           objectives in order to achieve the greatest level of learning success!
         </p>
-        <div className="max-w-4xl mx-auto grid grid-cols-4 gap-6">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
           {services.map((s, idx) => (
             <Card key={idx} className={`relative p-0 group`}>
               <div
