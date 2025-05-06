@@ -23,9 +23,9 @@ export function Feature() {
             Page Turners 2025
           </h2>
           <p className="text-lg mb-6 text-white/90 text-justify">
-            Don't let the summer slide affect your child's academic progress.
-            Join our comprehensive summer camp designed to keep students engaged
-            with learning while having fun!
+            Don&apos;t let the summer slide affect your child&apos;s academic
+            progress. Join our comprehensive summer camp designed to keep
+            students engaged with learning while having fun!
           </p>
           <ul className="space-y-4 mb-8">
             {highlights.map((h, idx) => (
@@ -67,7 +67,7 @@ function Details() {
             <div className="min-w-[100px] font-semibold text-blue-500">
               Times:
             </div>
-            <div className="text-gray-700">Monday-Friday, 9 AM - 1 PM</div>
+            <div className="text-gray-700">Monday - Friday, 9 AM - 1 PM</div>
           </div>
           <div className="flex gap-4">
             <div className="min-w-[100px] font-semibold text-blue-500">
