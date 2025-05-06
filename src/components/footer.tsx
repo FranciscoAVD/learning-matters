@@ -1,4 +1,5 @@
 import { Phone, LucideMail } from "lucide-react";
+import Link from "next/link";
 
 const navigation = {
   main: [
@@ -68,25 +69,25 @@ export function Footer() {
           className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6"
         >
           {navigation.main.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="hover:text-yellow-500"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="mt-16 flex justify-center gap-x-10">
           {navigation.social.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="hover:text-yellow-500"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="size-6" />
-            </a>
+            </Link>
           ))}
         </div>
         <p className="flex items-center justify-center gap-2 mt-10 text-sm/6">
